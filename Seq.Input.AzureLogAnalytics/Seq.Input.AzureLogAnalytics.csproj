@@ -8,8 +8,13 @@
     <VersionPrefix>1.1.0</VersionPrefix>
     <LangVersion>latest</LangVersion>
     <Description>Seq custom input that polls an Azure Log Analytics workspace and publishes events to Seq.</Description>
-    <Authors>Pinnacle Innovation</Authors>
-    <PackageTags>seq-app</PackageTags>
+    <PackageProjectUrl>https://github.com/ultrabstrong/SeqInputApps</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ultrabstrong/SeqInputApps</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Authors>ultrabstrong</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>seq;seq-app;seq-input;azure-log-analytics;application-insights;azure-monitor;kql;clef;observability</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,7 +25,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="./obj/publish/**/*" Exclude="./obj/publish/Seq.Input.AzureLogAnalytics.dll;./obj/publish/Seq.Apps.dll;./obj/publish/Serilog.dll" Pack="true" PackagePath="lib/$(TargetFramework)" />
+    <None Include="./obj/publish/**/*" Exclude="./obj/publish/Seq.Input.AzureLogAnalytics.dll;./obj/publish/Seq.Input.AzureLogAnalytics.pdb;./obj/publish/Seq.Apps.dll;./obj/publish/Serilog.dll" Pack="true" PackagePath="lib/$(TargetFramework)" />
+    <None Include="README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
