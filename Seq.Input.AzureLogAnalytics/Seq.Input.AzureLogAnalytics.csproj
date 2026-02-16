@@ -8,8 +8,8 @@
     <VersionPrefix>1.1.0</VersionPrefix>
     <LangVersion>latest</LangVersion>
     <Description>Seq custom input that polls an Azure Log Analytics workspace and publishes events to Seq.</Description>
-    <PackageProjectUrl>https://github.com/ultrabstrong/SeqInputApps</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/ultrabstrong/SeqInputApps</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/ultrabstrong/SeqApps</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ultrabstrong/SeqApps</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <Authors>ultrabstrong</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
