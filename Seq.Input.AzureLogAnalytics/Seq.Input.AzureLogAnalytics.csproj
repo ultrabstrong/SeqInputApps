@@ -4,8 +4,8 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>1.1.0</Version>
-    <VersionPrefix>1.1.0</VersionPrefix>
+    <Version>1.1.1</Version>
+    <VersionPrefix>1.1.1</VersionPrefix>
     <LangVersion>latest</LangVersion>
     <Description>Seq custom input that polls an Azure Log Analytics workspace and publishes events to Seq.</Description>
     <PackageProjectUrl>https://github.com/ultrabstrong/SeqApps</PackageProjectUrl>
